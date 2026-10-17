@@ -1,6 +1,6 @@
 # Shima privacy policy
 
-Effective 2026-10-16
+Effective 2026-10-17
 
 ## The short version
 
@@ -20,7 +20,7 @@ The app that is playing supplies the title, artist, artwork and, if it offers th
 
 ## Alerts that ask for a permission
 
-A few alerts need a permission of their own, asked for only when you turn that alert on. Bluetooth tells the island which headset connected and its battery. Location is what Android asks of an app that reads the name of the Wi-Fi network you joined or notices an app starting GPS; Shima never reads where you are. Photos let the screenshot alert show the shot you just took. The microphone and camera alerts need no permission: they learn only that something is using them, never what it hears or sees.
+A few alerts need a permission of their own, asked for only when you turn that alert on. Bluetooth tells the island which headset connected and its battery. Location is what Android asks of an app that reads the name of the Wi-Fi network you joined or notices an app starting GPS; Shima never reads where you are. The microphone and camera alerts need no permission: they learn only that something is using them, never what it hears or sees.
 
 ## Clipboard
 
