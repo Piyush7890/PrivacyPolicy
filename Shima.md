@@ -1,6 +1,6 @@
 # Shima privacy policy
 
-Effective 2026-10-17
+Effective 2026-10-18
 
 ## The short version
 
@@ -20,7 +20,7 @@ The app that is playing supplies the title, artist, artwork and, if it offers th
 
 ## Alerts that ask for a permission
 
-A few alerts need a permission of their own, asked for only when you turn that alert on. Bluetooth tells the island which headset connected and its battery. Location is what Android asks of an app that reads the name of the Wi-Fi network you joined or notices an app starting GPS; Shima never reads where you are. The microphone and camera alerts need no permission: they learn only that something is using them, never what it hears or sees.
+A few alerts need a permission of their own, asked for only when you turn that alert on. Bluetooth tells the island which headset connected and its battery. Location is what Android asks of an app that reads the name of the Wi-Fi network you joined or notices an app starting GPS; Shima never reads where you are. The screenshot alert asks you to pick your Screenshots folder, and reads only that folder, to show the shot you just took. The microphone and camera alerts need no permission: they learn only that something is using them, never what it hears or sees.
 
 ## Clipboard
 
@@ -40,7 +40,7 @@ Report a bug opens your email app with the app version, phone model and Android 
 
 ## What stays on your phone
 
-Your settings, the apps you have opened from search, and a log of when the island's services started and stopped are kept in Shima's private storage. Uninstalling Shima or clearing its storage deletes them.
+Your settings, the apps you have opened from search, and a log of when the island's services started and stopped are kept in Shima's private storage. While the App uninstalled alert is on, so is the name, icon, version, size and source of each app you have installed, because Android stops saying what an app was the moment it is uninstalled. That list is never part of a backup, and turning the alert off deletes it. Uninstalling Shima or clearing its storage deletes all of it.
 
 ## This policy
 
