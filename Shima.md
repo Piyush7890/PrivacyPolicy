@@ -26,6 +26,10 @@ A few alerts need a permission of their own, asked for only when you turn that a
 
 Shima reads the clipboard only when you use the Translate clipboard gesture, and hands the text straight to the translation app you pick. It does not keep a copy.
 
+## Shortcuts
+
+When you bind a gesture to another app's shortcut, Shima keeps that shortcut on your phone so the gesture can run it. A shortcut that calls a contact needs the phone permission, asked for only when you pick one; Shima uses it to place that call and nothing else.
+
 ## Purchases
 
 Pro and tips are paid through Google Play, which handles the payment under Google's own privacy policy. Shima receives Play's signed receipt and keeps it on your phone to unlock Pro; it never sees your payment details. Update checks and the rating prompt go through Google Play too.
