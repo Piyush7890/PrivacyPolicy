@@ -44,7 +44,7 @@ The screenshot slice asks Android to take one, as the power and volume buttons d
 
 ## Backups
 
-Export settings writes your slices, rings and looks to a file in the place you choose, and Import settings reads the file you pick. Sensu never uploads either. If Android's own backup is on, your phone may include Sensu's settings in the copy it keeps in your Google account, as it does for other apps.
+Backup & restore saves your slices, rings and looks as a file in the Downloads/Sensu folder on your phone: when you tap Back up now, and at night on a schedule while Auto backup is on (daily, weekly or monthly). Auto backup starts, weekly, the first time you open Backup & restore, and you can turn it off there. It deletes its own older files and keeps the newest few; Sensu never deletes a backup you made. So that the schedule survives a restart, Sensu asks Android to let it run after the phone starts. Restore reads only the file you pick. Sensu never uploads any of them. If Android's own backup is on, your phone may include Sensu's settings in the copy it keeps in your Google account, as it does for other apps.
 
 ## Google Play
 
