@@ -26,7 +26,7 @@ To step aside in full-screen video, Sensu asks Android whether something is play
 
 ## Settings Sensu can change
 
-The brightness slider, and slices like auto-rotate and screen timeout, change those settings only once you allow Modify system settings. Night Light, inversion, grayscale and animation speed need advanced access, which you give over adb yourself. Slices that only the shell can do run through Shizuku, only once you allow Sensu in Shizuku's app. Each changes only the setting you move it to.
+The brightness slider, and slices like auto-rotate and screen timeout, change those settings only once you allow Modify system settings. Night Light, inversion, grayscale and animation speed need advanced access, which you give over adb yourself. Slices that only the shell can do run through Shizuku, only once you allow Sensu in Shizuku's app. Each changes only the setting you move it to. With advanced access, Sensu also turns its own accessibility service back on after a force-stop (see Staying on).
 
 The flashlight slice turns on the camera's light. It never opens the camera.
 
@@ -45,6 +45,10 @@ The screenshot slice asks Android to take one, as the power and volume buttons d
 ## Backups
 
 Backup & restore saves your slices, rings and looks as a file in the Downloads/Sensu folder on your phone: when you tap Back up now, and at night on a schedule while Auto backup is on (daily, weekly or monthly). Auto backup starts, weekly, the first time you open Backup & restore, and you can turn it off there. It deletes its own older files and keeps the newest few; Sensu never deletes a backup you made. So that the schedule survives a restart, Sensu asks Android to let it run after the phone starts. Restore reads only the file you pick. Sensu never uploads any of them. If Android's own backup is on, your phone may include Sensu's settings in the copy it keeps in your Google account, as it does for other apps.
+
+## Staying on
+
+So that it keeps running, Sensu asks Android to start it after the phone restarts or Sensu is updated, and checks every 15 minutes, and each time you open it or the Quick Settings tile shows, that its accessibility service is still on. It keeps a short log on your phone of when it was closed, how Android says it was closed, and when it came back, which its Reliability page shows. The log is never sent anywhere and isn't part of any backup. If you turn on Keep-alive service, Sensu runs as a foreground service with a silent notification. If you allow Unrestricted battery, Android stops limiting it in the background. With advanced access, Sensu turns its accessibility service back on after a force-stop, never after you turn it off yourself.
 
 ## Google Play
 
