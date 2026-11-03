@@ -1,6 +1,6 @@
 # Sensu privacy policy
 
-Effective 2026-10-31
+Effective 2026-11-01
 
 ## The short version
 
@@ -53,6 +53,10 @@ So that it keeps running, Sensu asks Android to start it after the phone restart
 ## Google Play
 
 When you open Sensu, it asks Google Play whether a newer version is out, so Google Play can offer it to you. Once you have used Sensu for a while, it may also ask Google Play to show its rating card. Both are Google Play's, under Google's own privacy policy, and Sensu never learns whether you rated it or what you wrote.
+
+## Purchases
+
+Pro and the themes are paid for through Google Play, which handles the payment under Google's own privacy policy. Each time you open Sensu it asks Google Play which of them your Google account has bought, so a purchase made on another phone, or a refund, reaches this one. Sensu receives Play's signed receipt for each purchase and keeps it on your phone to unlock what you bought; it never sees your payment details, and the receipt is never sent anywhere.
 
 ## Bug reports and email
 
