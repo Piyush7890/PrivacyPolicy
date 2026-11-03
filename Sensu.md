@@ -1,10 +1,10 @@
 # Sensu privacy policy
 
-Effective 2026-11-01
+Effective 2026-11-03
 
 ## The short version
 
-Sensu has no account, no analytics and no ads, and there is no Sensu server. What it reads to work is read on your phone and used there, and none of it is sent anywhere.
+Sensu has no account, no analytics and no ads, and there is no Sensu server. What it reads to work is read on your phone and used there, and none of it is sent anywhere. Sensu's own code never goes online: it holds Android's internet permission only because Google Play's billing library, which handles purchases, needs it (see Purchases).
 
 ## Accessibility service
 
@@ -57,6 +57,8 @@ When you open Sensu, it asks Google Play whether a newer version is out, so Goog
 ## Purchases
 
 Pro and the themes are paid for through Google Play, which handles the payment under Google's own privacy policy. Each time you open Sensu it asks Google Play which of them your Google account has bought, so a purchase made on another phone, or a refund, reaches this one. Sensu receives Play's signed receipt for each purchase and keeps it on your phone to unlock what you bought; it never sees your payment details, and the receipt is never sent anywhere.
+
+Sensu does this through Google Play's billing library, a part of Sensu that Google makes. The library talks to Google Play on your phone and sends Google its own diagnostic information about purchases, under Google's own privacy policy. It is why Sensu holds Android's internet and network state permissions; Sensu's own code uses neither.
 
 ## Bug reports and email
 
