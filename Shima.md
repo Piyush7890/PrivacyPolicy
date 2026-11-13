@@ -8,7 +8,7 @@ Shima has no account, no analytics and no ads, and there is no Shima server. Wha
 
 ## Notification access
 
-The notification listener is how the island knows what is playing and picks up live updates from other apps, like a timer, a ride or a delivery. Those notifications are read in memory to draw the island. Shima does not save them or send them anywhere.
+The notification listener is how the island knows what is playing, picks up live updates from other apps, like a timer, a ride or a delivery, and, with Notifications on, shows other apps' notifications and the messages in them. Those notifications are read in memory to draw the island. Shima does not save what they say or send it anywhere. A reply you type on the island goes to the app it answers, as a reply from the notification shade does, and Shima does not keep it once it is sent; a reply you leave half typed is held in memory for an hour, so it is still there when that chat comes back. Mark as read, Clear and an app's own buttons do on the island what they do in the shade.
 
 ## Accessibility service
 
@@ -30,6 +30,10 @@ Shima reads the clipboard only when you use the Translate clipboard gesture, and
 
 When you bind a gesture to another app's shortcut, Shima keeps that shortcut on your phone so the gesture can run it. A shortcut that calls a contact needs the phone permission, asked for only when you pick one; Shima uses it to place that call and nothing else.
 
+## Camera
+
+The Mirror gesture shows your camera's live picture on the island. Shima asks for the camera permission only when you pick Mirror for a gesture, opens the camera only while the Mirror card is open, and closes it as the card closes. The picture goes to your screen and nowhere else: Shima never records, saves or sends any of it.
+
 ## Purchases
 
 Pro and tips are paid through Google Play, which handles the payment under Google's own privacy policy. Shima receives Play's signed receipt and keeps it on your phone to unlock Pro; it never sees your payment details. Update checks and the rating prompt go through Google Play too.
@@ -44,7 +48,7 @@ Report a bug opens your email app with the app version, phone model and Android 
 
 ## What stays on your phone
 
-Your settings, the apps you have opened from search, and a log of when the island's services started and stopped are kept in Shima's private storage. While the App uninstalled alert is on, so is the name, icon, version, size and source of each app you have installed, because Android stops saying what an app was the moment it is uninstalled. That list is never part of a backup, and turning the alert off deletes it. Uninstalling Shima or clearing its storage deletes all of it.
+Your settings, the apps you have opened from search, and a log of when the island's services started and stopped are kept in Shima's private storage. While Notifications is on, so is the name of each app that has sent you a notification, so the list of apps can offer a switch for it, and which of them Android also pops up; never what a notification said. While the App uninstalled alert is on, so is the name, icon, version, size and source of each app you have installed, because Android stops saying what an app was the moment it is uninstalled. That list is never part of a backup, and turning the alert off deletes it. Uninstalling Shima or clearing its storage deletes all of it.
 
 ## This policy
 
