@@ -1,6 +1,6 @@
 # Shima privacy policy
 
-Effective 2026-10-18
+Effective 2026-11-12
 
 ## The short version
 
@@ -12,7 +12,7 @@ The notification listener is how the island knows what is playing and picks up l
 
 ## Accessibility service
 
-The accessibility service lets the island draw above the status bar and carries out the gestures you set on it: back, home, recent apps, the notification shade, quick settings, lock screen and screenshot. It also checks which app is open, so the island can stay out of the way of the apps you choose. It does not read what is on your screen.
+The accessibility service lets the island draw above the status bar and carries out the gestures you set on it: back, home, recent apps, page up, page down, scroll to top, scroll to bottom, the notification shade, quick settings, lock screen and screenshot. It also checks which app is open, so the island can stay out of the way of the apps you choose. For page up, page down, scroll to top and scroll to bottom it finds the list on screen and asks it to scroll. It does not read the text on your screen.
 
 ## Music, artwork and lyrics
 

@@ -1,6 +1,6 @@
 # Sensu privacy policy
 
-Effective 2026-11-03
+Effective 2026-11-12
 
 ## The short version
 
@@ -10,7 +10,7 @@ Sensu has no account, no analytics and no ads, and there is no Sensu server. Wha
 
 The accessibility service is what Sensu runs in. It draws the pie and its handles over other apps, passes a tap or swipe on a handle that doesn't open the pie on to the app under it, and carries out the slices you choose: back, home, recent apps, the notification shade, lock, screenshot and the rest.
 
-It checks where the keyboard is, so a handle can sit above it. It notices which app is open, so the handles can step aside in games, in full-screen video and in apps you pick, so App info and Current app act on that app, and so Recent apps can show the last few apps you used. That list is kept in memory only, never saved or sent, and is gone when Sensu or the phone restarts. For Page up, Page down and Scroll to top it finds the list on screen and asks it to scroll.
+It checks where the keyboard is, so a handle can sit above it. It notices which app is open, so the handles can step aside in games, in full-screen video and in apps you pick, so App info and Current app act on that app, and so Recent apps can show the last few apps you used. That list is kept in memory only, never saved or sent, and is gone when Sensu or the phone restarts. For Page up, Page down, Scroll to top and Scroll to bottom it finds the list on screen and asks it to scroll.
 
 For Force stop in Current app, unless you use Shizuku, it opens that app's page in Settings and presses Force stop there, then OK on the question that follows, as you would. It finds those two by the words Settings itself shows for them.
 
