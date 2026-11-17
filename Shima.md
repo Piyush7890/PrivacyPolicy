@@ -1,6 +1,6 @@
 # Shima privacy policy
 
-Effective 2026-11-12
+Effective 2026-11-16
 
 ## The short version
 
@@ -9,6 +9,10 @@ Shima has no account, no analytics and no ads, and there is no Shima server. Wha
 ## Notification access
 
 The notification listener is how the island knows what is playing, picks up live updates from other apps, like a timer, a ride or a delivery, and, with Notifications on, shows other apps' notifications and the messages in them. Those notifications are read in memory to draw the island. Shima does not save what they say or send it anywhere. A reply you type on the island goes to the app it answers, as a reply from the notification shade does, and Shima does not keep it once it is sent; a reply you leave half typed is held in memory for an hour, so it is still there when that chat comes back. Mark as read, Clear and an app's own buttons do on the island what they do in the shade.
+
+## Turning off other apps' pop-ups
+
+If you ask Shima to turn off pop-ups for the apps the island shows, it switches off Pop on screen for them, the same switch Android's notification settings have for each kind of notification, and switches it back on when you turn Only on the island off. Android lets an app do this only while it is paired with a device, so Shima asks you to pick one from Android's own device list, or makes the pairing through Shizuku if you choose that. Shima never connects to the device and gets nothing from it, and it uses Shizuku for that one step only. While Shima is paired, Android also shows it the one-time codes it hides from other apps' notification access; Shima treats them as any other notification, on the island and in memory only. Shima keeps on your phone a record of which settings it changed and what they were, so it can put them back, and leaves that record out of every backup. Turning Only on the island off puts the settings back and removes the pairing. Uninstalling Shima removes the pairing but cannot put the settings back, so turn it off first.
 
 ## Accessibility service
 
@@ -48,7 +52,7 @@ Report a bug opens your email app with the app version, phone model and Android 
 
 ## What stays on your phone
 
-Your settings, the apps you have opened from search, and a log of when the island's services started and stopped are kept in Shima's private storage. While Notifications is on, so is the name of each app that has sent you a notification, so the list of apps can offer a switch for it, and which of them Android also pops up; never what a notification said. While the App uninstalled alert is on, so is the name, icon, version, size and source of each app you have installed, because Android stops saying what an app was the moment it is uninstalled. That list is never part of a backup, and turning the alert off deletes it. Uninstalling Shima or clearing its storage deletes all of it.
+Your settings, the apps you have opened from search, and a log of when the island's services started and stopped are kept in Shima's private storage. While Notifications is on, so is the name of each app that has sent you a notification, so the list of apps can offer a switch for it, and which of them Android also pops up; never what a notification said. If Shima has turned pop-ups off, so is the record of what it changed. While the App uninstalled alert is on, so is the name, icon, version, size and source of each app you have installed, because Android stops saying what an app was the moment it is uninstalled. That list is never part of a backup, and turning the alert off deletes it. Uninstalling Shima or clearing its storage deletes all of it.
 
 ## This policy
 
