@@ -1,10 +1,10 @@
 # Shima privacy policy
 
-Effective 2026-11-17
+Effective 2026-11-18
 
 ## The short version
 
-Shima has no account, no analytics and no ads, and there is no Shima server. What the island shows is read on your phone and used there. None of it is sent to the developer or to anyone else.
+Shima has no account, no analytics and no ads, and there is no Shima server. What the island shows is read on your phone and used there. Nothing is sent to the developer, and the few things sent anywhere else are named below.
 
 ## Notification access
 
@@ -20,7 +20,7 @@ The accessibility service lets the island draw above the status bar and carries 
 
 ## Music, artwork and lyrics
 
-The app that is playing supplies the title, artist, artwork and, if it offers them, lyrics. When a player gives a web link for its artwork instead of the image itself, Shima downloads that one image from the player's link. Artwork is held in memory for the current track and never saved.
+The app that is playing supplies the title, artist, artwork and, if it offers them, lyrics. When it offers no lyrics and Find lyrics online is on, Shima asks LRCLIB (lrclib.net) for them the first time you open the music card on that song, sending its title, artist, album and length. LRCLIB sees an ordinary web request from your phone. The lyrics are kept in Shima's cache so the same song is not asked for again, and a song LRCLIB has none for is asked again only after three days. Android may clear that cache at any time. When a player gives a web link for its artwork instead of the image itself, Shima downloads that one image from the player's link. Artwork is held in memory for the current track and never saved.
 
 ## Alerts that ask for a permission
 
